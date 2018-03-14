@@ -7,6 +7,61 @@ body, html{
   line-height:1.8em;
  /* color:#000;*/
 }
+/* NAVBAR */
+#navbar{
+  text-transform:uppercase;
+}
+
+#navbar li{
+  display:inline;
+  padding-right:20px;
+  list-style:none;
+  text-decoration: none;
+}
+
+#navbar a{
+  text-decoration:none;
+  color:#888;
+  text-shadow: white;
+}
+
+#navbar li.current a, #navbar a:hover{
+  color:#F9f7f7;
+  border-bottom: 3px solid #777;
+  padding-bottom:3px;
+}
+
+
+/*ul {
+  padding: 1.5em;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  line-height: 2em;
+  font-size: 16px;
+}
+
+a {
+  display: inline-block;
+  padding: 0 1em;
+  margin: 0 1em;
+  border-radius: .25em;
+  transition: ease-in-out 0.15s all;
+  text-decoration: none;
+  color: white;
+
+  &:hover,
+  &:focus {
+    color: #777, 30%);
+    background-color: rgba(0,0,0,0.1);
+  }
+
+  &:active {
+    color: #777 50%);
+    background-color: rgba(0,0,0,0.3);
+  }*/
 
 .pimg1, .pimg2, .pimg3{
   position:relative;
@@ -52,7 +107,7 @@ body, html{
 
 .section-dark{
   background-color:#444;
-/*  color:#777;*/
+  color: white;
 }
 
 .ptext{
@@ -86,7 +141,7 @@ footer {
   text-align: center;
 }
 footer .container {
-  padding-bottom: 0;
+  padding-bottom: 5px;
 /*  text-align: center;*/
   margin: 0;
 }
